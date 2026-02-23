@@ -40,7 +40,7 @@ const Dashboard = () => {
           pendingEarnings: 1250.00,
           availableEarnings: 7700.50,
           copyrightCerts: 38,
-          维权Cases: 5,
+          protectionCases: 5,
           successRate: 80
         }
         
