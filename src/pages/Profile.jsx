@@ -92,7 +92,7 @@ const Profile = () => {
               status: 'valid'
             }
           ],
-         copyrightCases: [
+          copyrightCases: [
             {
               id: 'case1',
               contentId: '1',
