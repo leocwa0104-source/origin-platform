@@ -324,7 +324,7 @@ const CopyrightProtection = () => {
           </TabPane>
 
           {/* 维权中心 */}
-          <TabPane tab={<><ShieldOutlined /> 维权中心</>} key="维权">
+          <TabPane tab={<><ShieldOutlined /> 维权中心</>} key="protection">
             <Card title="维权通道" className="copyright-protection-channel-card">
               <Row gutter={16}>
                 <Col xs={24} md={12}>
