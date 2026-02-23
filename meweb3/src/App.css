@@ -1,0 +1,60 @@
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  background-color: #1890ff;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.header-menu a {
+  color: white;
+  font-size: 16px;
+}
+
+.header-menu a:hover {
+  color: #e6f7ff;
+}
+
+.app-content {
+  padding: 24px;
+  margin: 0;
+  min-height: 280px;
+  background-color: #f0f2f5;
+}
+
+.app-footer {
+  text-align: center;
+  background-color: #f0f2f5;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .header-menu {
+    margin-top: 12px;
+    gap: 16px;
+  }
+
+  .app-content {
+    padding: 12px;
+  }
+}
